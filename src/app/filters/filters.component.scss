@@ -1,0 +1,20 @@
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    .filter-div {
+      margin: 10px;
+    }
+
+    .reset-button{
+        margin: 10px;
+    }
+
+    .view-select-div{
+        margin: 10px;
+        position: absolute;
+        right: 0;
+    }
+  }
+  

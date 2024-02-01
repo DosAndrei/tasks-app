@@ -1,0 +1,12 @@
+<div class="filter-container">
+    <div class="filter-div" *ngFor="let state of states">
+      <button mat-raised-button color="primary" (click)="selectFilter(state)">{{state}}</button>
+    </div>
+    <button class="reset-button" mat-raised-button color="warning" (click)="selectFilter(null)">Reset</button>
+    
+    <div class="view-select-div">
+        <button mat-raised-button color="primary" (click)="switchView()">Switch view</button>
+      </div>
+  </div>
+  
+  
